@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        header {
+            width: auto;
+            padding-left: 50px;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            height: 100px;
+        }
+
+        .center {
+            line-height: 1.5;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .flex-container {
+            display: flex;
+            flex: 50%;        
+            flex-wrap: wrap;
+            margin: 0px;
+            padding: 20px;
+            font-size: 25px;   
+            justify-content: center;
+        }
+
+        .article {
+            margin-left: 20px;
+            margin-bottom: 20px;
+            width: 304px;
+            height: 430px;
+            border-bottom: 2px solid gray;
+            position: relative;
+        }
+
+        .news_menu{
+            width:auto;
+            margin-left: 50px;
+            margin-right: 50px;
+            height: 800px;
+        }
+
+        .news_menu_text{
+            text-align: center;
+            position: absolute;
+            top: 11px;
+            left: 0;
+            background-color: white;
+            color: red;
+            width: 190px;
+            height: 30px;
+            font-size: small;       
+        }
+
+        .news_menu_text_date{
+            text-align: center;
+            position: absolute;
+            top: 0px;
+            right: 8px;
+            background-color: white;
+            color: red;
+            width: 60px;
+            height: 90px;
+            font-size: small;       
+        }
+
+        img { 
+            width: 100%;
+            height: auto;
+        }
+
+        .article_title {
+            font-size: 20px;
+        }
+
+        .article_text {
+            font-size: 15px;
+        }
+
+        .article_social_links {
+            position: absolute;
+            bottom: 0px;
+            font-size: 20px;
+            color: red;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <main>
+<div class="news_menu">
+    <header>
+        <h2>NOTICIAS</h2>
+    </header>
+    <div class="flex-container">
+        <div class="article"><img src="../Fotos/señora.jpg" alt="" width="1000" height="300"><div class = "news_menu_text">ACTUALIDAD COMUNICADOS</div><div class = "news_menu_text_date">ENE</div>
+        <p class = "article_title"><b>Un 70% de las personas que piden ayuda a Cruz Roja en la post [...]</b></p>
+        <p class = "article_text">Extrae sus conclusiones de las ayudas entregadas en el marco del plan Cruz Roja Reacciona, una ayuda directa para paliar la crisis derivada del conflicto, la COVID-19 y el cambio climático.</p>
+        <div><p class = article_social_links>Leer más</p></div>
+        </div>
+        <div class="article"><img src="../Fotos/soledad.jpg" alt="" width="1000" height="300"><div class = "news_menu_text">ACTUALIDAD COMUNICADOS</div><div class = "news_menu_text_date">ENE</div>
+        <p class = "article_title"><b>Cruz Roja: “Cada vez cuesta menos decir que te sientes solo o sola, p [...]</b></p>
+        <p class = "article_text">Cruz Roja ‘ha acompañado’ a más de 3.000 personas en situación de soledad no deseada desde la puesta en marcha del multicanal específico ‘Cruz Roja Te Acompaña’</p>
+        <div><p class = article_social_links>Leer más</p></div>
+        </div>
+        <div class="article"><img src="../Fotos/personas.jpg" alt="" width="1000" height="300"><div class = "news_menu_text">ACTUALIDAD COMUNICADOS</div><div class = "news_menu_text_date">ENE</div>
+        <p class = "article_title"><b>'Héroes con manta y comida caliente': las Unidades de Emergen [...]</b></p>
+        <p class = "article_text">Hasta marzo de 2023, Cruz Roja tendrá en marcha la campaña de información y seguimiento a la población ‘Yo me protejo’, con consejos para paliar los efectos del frío</p>
+        <div><p class = article_social_links>Leer más</p></div>
+        </div>
+    </div> 
+</div>
+    </main>
+</body>
+</html>

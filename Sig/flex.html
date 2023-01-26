@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main {
+            background-color: lightblue;
+        }
+
+        header {
+            color:azure;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+        }
+
+        .flex-container {
+            display: flex;     
+            flex-wrap: wrap;
+            background-color: grey;
+            margin: 0px;
+            padding: 100px;
+            font-size: 25px;   
+            justify-content: center;
+        }
+
+        nav {
+            background-color: linen;
+        }
+
+        .columna {
+            margin-left: 10px;
+            margin-bottom: 10px;
+            width: 200px;
+            background-color: linen;
+            border: 3px solid black;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+            display: flex;
+            }
+
+        li {
+            display: inline;
+            margin-inline: 40px;
+            }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h2>COMERCIO JUSTO</h2>
+    </header>
+    <main>
+    <div>
+         <nav>
+            <ul>
+                <li>Madrid</li>
+                <li>Barcelona</li>
+                <li>Valencia</li>
+              </ul>
+         </nav>   
+    </div>
+
+
+    <div class="flex-container">
+        <div class="columna"><p>Madrid Madrid Madrid Madrid Madrid MadridMadrid Madrid Madrid Madrid Madrid</p></div>
+        <div class="columna"><p>Barcelona Barcelona Barcelona Barcelona</p></div>
+        <div class="columna"><p>Valencia Valencia Valencia</p></div>  
+    </div>
+
+
+    </main>
+</body>
+</html>

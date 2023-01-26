@@ -1,0 +1,12 @@
+body { 
+    font-family: 'Arial', 'Courier New'
+}
+
+.title {
+background-color: blue;
+height: 90px;
+}
+
+.title_nav {
+background-color: aquamarine;
+}
