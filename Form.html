@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .red_button_form {
+       background-color: red;
+       border-color: red;
+       color: white;
+       padding: 10px;
+    }
+
+    .input_padding {
+
+        padding: 8px;
+
+    }
+
+    .flex-container {
+        background-color: lightgray;
+        display: flex;
+        flex: 50%;
+        flex-wrap: wrap;
+        margin: 0px;
+        padding: 20px;
+        font-size: 20px;
+        justify-content: center;
+    }
+    </style>
+</head>
+<body>
+
+<h2>Alta voluntariado</h2>
+
+<div class="flex-container">
+<form action="/action_page.php">
+  <label for="fname">Nombre:</label><br>
+  <input class="input_padding" type="text" id="fname" name="fname" value=""><br><br>
+  <label for="lname">Primer apellido:</label><br>
+  <input class="input_padding" type="text" id="lname" name="lname" value=""><br><br>
+  <label for="lname">Segundo apellido:</label><br>
+  <input class="input_padding" type="text" id="lname" name="lname" value=""><br><br>
+  <label for="fname">Fecha de nacimiento:</label><br>
+  <input class="input_padding" type="text" id="fname" name="fname" value=""><br><br>
+  <label for="lname">Tipo de documento:</label><br>
+  <input class="input_padding" type="text" id="lname" name="lname" value=""><br><br>
+  <label for="lname">Núm del documento:</label><br>
+  <input class="input_padding" type="text" id="lname" name="lname" value=""><br><br>
+  <input class="red_button_form" type="submit" value="Siguiente">
+</form> 
+</div>
+</body>
+</html>
